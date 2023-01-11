@@ -8,3 +8,4 @@ def print_reversed_list_integer(my_list=[]):
 
 if __name__ == "__main__":
     print_reversed_list_integer([1,2,3,4,5,6])
+    print_reversed_list_integer([10, 50, 30, 29, 100])
