@@ -2,8 +2,8 @@
 
 def square_matrix_simple(matrix=[]):
     if matrix:
-        return [list(map(lambda x: x**2, arr)) for arr in matrix]
-
+        new_matrix = [list(map(lambda x: x**2, arr)) for arr in matrix]
+        return new_matrix
     return matrix
 
 
