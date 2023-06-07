@@ -8,4 +8,4 @@ elif( number < 0):
     response = 'is negative'
 else:
     response = 'is zero'
-print(f'{number:d} {response}')
+print(f'{number} {response}')
