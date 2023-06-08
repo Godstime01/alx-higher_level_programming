@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 for num in range(100):
-    if(num < 9):
-        print(f'{0:d}{num:d}', end=", ")
-    elif(num == 99):
-        print(num)
+    if(num < 10):
+        print('0{}'.format(num), end=", ")
     else:
-        print(num, end=", ")
+        print('{}'.format(num), end=", ")

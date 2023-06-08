@@ -4,7 +4,7 @@ number = random.randint(-10, 10)
 response = ''
 if(number > 0):
     response = 'is positive'
-elif( number < 0):
+elif(number < 0):
     response = 'is negative'
 else:
     response = 'is zero'
