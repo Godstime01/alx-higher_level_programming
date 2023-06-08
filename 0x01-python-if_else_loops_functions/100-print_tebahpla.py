@@ -1,7 +1,4 @@
 #!/usr/bin/python3
 
-for i in range(65, 91):
-    if(i % 2 == 0):
-        print(chr(i + 32), end="")
-    else:
-        print(chr(i), end="")
+for i in range(90, 64, -1):
+    print('{}'.format(chr(i + 32) if i % 2 != 0 else chr(i)), end="")
