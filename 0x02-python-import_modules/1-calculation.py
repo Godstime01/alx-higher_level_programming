@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 if __name__ == '__main__':
-    calc_functions = __import__(calculator_1)
+    import calculator_1 as calc_functions
     a = 10
     b = 5
     print('{} + {} = {}'.format(a, b, calc_functions.add(a, b)))
